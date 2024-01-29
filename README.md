@@ -1,0 +1,3 @@
+This code is a parser that reads the valid mathematical expressions from a file and generates a parse tree for them. The expressions can be split across multiple lines and can contain white spaces between tokens.
+The Node class defines a node in the parse tree. Each node has a symbol attribute that holds the symbol represented by the node, and leftChild and rightChild attributes that hold the left and right children of the node.
+The merge function reads the contents of the file "d://lab3decoy.txt",removes white spaces and newlines, and writes the resulting string back to the file. The purpose of this function is to enable the parser to read expressions that are split across multiple lines.
