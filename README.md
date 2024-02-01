@@ -1,1 +1,0 @@
-This code is a parser that reads the valid mathematical expressions from a file and generates a parse tree for them. The expressions can be split across multiple lines and can contain white spaces between tokens.
